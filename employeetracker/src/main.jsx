@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import List from "./List";
+import List from "./components/List";
 import axios from "axios";
 
 class MainPage extends Component {
@@ -44,10 +44,7 @@ class MainPage extends Component {
   handleSubmit = (event) => {
     event.preventDefault();
     
-    // console.log("HandleSubmit");
-    // console.log(this.state.searchTerm);
-    //TODO: Filter employees array and return matching employees
-    // an onClick might help wiht this
+   
 
     const employees = [...this.state.employees];
     // const result = words.filter(word => word.length > 6);
