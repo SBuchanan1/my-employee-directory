@@ -1,9 +1,9 @@
 
 import React from 'react';
 import List from './components/List';
-// import { BrowserRouter as Router, Route } from "react-router-dom";
-// import NavBar from './components/NavBar';
-// import MainPage from "./containers/MainPage";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Navbar from './components/Navbar';
+import MainPage from "./components/Main";
 
 
 
