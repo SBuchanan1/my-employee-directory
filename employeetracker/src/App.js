@@ -1,17 +1,18 @@
 
 import React from 'react';
-import List from './components/List';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Navbar from './components/Navbar';
-import MainPage from "./components/Main";
-
-
+import Main from './components/Main';
+import Wrapper from './components/Wrapper';
+import Header from './components/Header';
+import "./App.css";
 
 function App() {
   return (
-    <List>
-
-    </List>
+    <div className="App">
+      <Wrapper>
+        <Header />
+        <Main />
+      </Wrapper>
+    </div>
   );
 }
 
