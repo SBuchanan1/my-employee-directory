@@ -1,14 +1,14 @@
 import React, { useContext } from "react";
-import DataBody from "../DataBody";
-import "./DataTable.css";
+import DataBody from "../Body";
+import "./table.css";
 import DataAreaContext from "../../utils/DataAreaContext";
 
-const DataTable = () => {
+const Table = () => {
     const context = useContext(DataAreaContext);
 
     return (
 
-        <div className="datatable mt-5">
+        <div className="table mt-5">
             <table
                 id="table"
                 className="table table-striped table-hover table-condensed"
