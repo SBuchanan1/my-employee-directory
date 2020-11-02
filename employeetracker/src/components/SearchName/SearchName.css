@@ -1,6 +1,14 @@
+.searchbox {
+  border: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .searchbox button {
   border: 1px solid purple;
-  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .searchbox button:hover {
   background-color: purple;
