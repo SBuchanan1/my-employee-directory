@@ -37,7 +37,7 @@ const DataArea = () => {
                 } else if (b[heading] === undefined) {
                     return -1;
                 } else if (heading === "name") {
-                    return a[heading].first.localCompare(b[heading].first);
+                    return a[heading].first.localeCompare(b[heading].first);
                 } else {
                     return b[heading] - a[heading];
                 }
@@ -83,7 +83,7 @@ const DataArea = () => {
                 filteredUsers: results.data.results
             });
         });
-    });
+    }, []);
 
     return (
         <DataAreaContext.Provider
