@@ -4,7 +4,7 @@ import "./Header.css";
 function Header() {
     return (
         <div className="header">
-            <h1>Employee Directory</h1>
+            <h1>My Employee Directory</h1>
             <p> Search for your employee below! </p>
         </div>
     )
