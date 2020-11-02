@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .searchbox button {
   border: 1px solid purple;
   display: flex;
