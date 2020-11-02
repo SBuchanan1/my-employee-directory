@@ -1,16 +1,16 @@
-.datatable .col {
+.DataTable .col {
   cursor: pointer;
   background-color: blueviolet;
   color: black;
 }
 
-.datatable .col .pointer:after {
+.DataTable .col .pointer:after {
   font-size: 80%;
   content: "";
   margin-right: 18px;
 }
 
-.datatable .col .pointer:hover:after {
+.DataTable .col .pointer:hover:after {
   font-size: 80%;
   content: "🔻";
   margin-right: 0;
