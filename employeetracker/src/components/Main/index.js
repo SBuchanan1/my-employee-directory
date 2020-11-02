@@ -1,11 +1,11 @@
 import React from "react";
-import Area from "../DataArea/index.js";
+import DataArea from "../DataArea/index.js";
 import "./Main.css";
 
-function Main() {
+function Main (){
     return (
         <>
-            <DataArea />
+        <DataArea />
         </>
     );
 };
